@@ -1,19 +1,21 @@
-import React from 'react';
-import { Express } from 'express';
 
-const con = Express();
+  const {
+    createPool
+  } = require('mysql');
+  
+  
+  const pool = createPool({
+    host:"localhost",
+    user:"root",
+    password:"",
+    database:"store_test",
+    connectionLimit: 10
+  })
+  
+  pool.query(`select * from products`, function(err, result, fields) {
+    if (err) {
+        return console.log(err);
+    }
+    return console.log(result);
+  }) 
 
-con.listen(8800, ()=>{
-  console.log("Connection opened on port 8800")
-})
-
-const db = mysql.createConnection({
-  host:"localhost",
-  user:"root",
-  password:"",
-  database:"store_test",
-})
-
-con.get("/", (req, res)=>{
-  res.json("Hello this is the backens")
-})

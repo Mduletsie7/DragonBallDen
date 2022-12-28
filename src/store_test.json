@@ -1,0 +1,11 @@
+{
+    "products":
+    [
+    {"sku":"bng211-FFT875","name":"DragonBall Z: Kai","price":"59.99","type":"DVD","value":"Size: 800MB"},
+    {"sku":"ccf201-DDU875","name":"Eragon","price":"29.95","type":"Book","value":"Weight: 5KG"},
+    {"sku":"GGWP0007","name":"War and Peace","price":"20","type":"Book","value":"Weight: 2KG"},
+    {"sku":"iut304-LLK875","name":"Wooden Desk","price":"99.95","type":"Furniture","value":"Dimensions: 24x15x5"},
+    {"sku":"JVC200123","name":"Acme DISC","price":"1","type":"DVD","value":"Size: 700MB"},
+    {"sku":"TR120555","name":"Chair","price":"40","type":"Furniture","value":"Dimension: 24x45x15"}
+    ]
+}

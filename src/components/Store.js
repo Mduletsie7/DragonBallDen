@@ -1,12 +1,12 @@
 import React from 'react'
 import '../Store.css'
 import { FaShoppingBag } from 'react-icons/fa';
+import data from '../store_test.json'
 
 function Store() {
+
   var storeItem = [];
   storeItem.push("0001", "Goku Turtle Hermit Gi", 20.00, "Jacket");
-  console.log(storeItem[0])
-
 
     return (
       <div className='zStore'>
@@ -25,7 +25,6 @@ function Store() {
       <div class="addProduct"><FaShoppingBag/> </div>
     </div>
       </div>
-      
       )
 }
 
