@@ -1,0 +1,29 @@
+.zStore {
+    margin: 30px;
+}
+
+/* MAIN */
+.products-wrapper {
+    display: flex;
+    flex-basis: 30%;
+    flex-wrap: wrap;
+}
+
+.products-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    width: 320px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 120px;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.product-image, .product-name, .product-price, .product-type, .product-value {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
