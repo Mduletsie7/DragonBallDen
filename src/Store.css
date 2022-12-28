@@ -22,8 +22,20 @@
     border: 1px solid #000;
 }
 
-.product-image, .product-name, .product-price, .product-type, .product-value {
+.product-image, .product-name, .product-price, .product-type, .product-description, .add-product {
     display: flex;
     justify-content: center;
     align-items: center;
-} 
+}
+
+.product-description {
+    font-size: 10px;
+    color: gray;
+}
+
+.addProduct {
+    color: #3b7bbf;
+    font-size: 30px;
+    justify-content: flex-end;
+    text-align: right;
+}
