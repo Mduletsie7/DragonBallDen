@@ -82,7 +82,7 @@ function Store() {
         image: 'https://supersaiyan-shop.com/wp-content/uploads/2021/06/Goku-Just-Do-It-Meme-T-Shirt.jpg',
         imageAlt: 'Goku Just Do It Meme T-Shirt',
         sku: '0009',
-        name: 'Senzu Bean',
+        name: 'Goku Just Do It Meme T-Shirt',
         price: 24.99,
         type: 'T-Shirt'        
       },

@@ -10,6 +10,7 @@ import YoutubeEmbed from './components/YoutubeEmbed';
 import Store from './components/Store';
 
 
+
 function App() {
   return (
     <div className="App">
@@ -24,7 +25,7 @@ function App() {
       <YoutubeEmbed embedId='Hoc0j1k3Wvc' />
       <Store />
       <Newsletter />
-
+      <Footer />
     </div>
   );
 }

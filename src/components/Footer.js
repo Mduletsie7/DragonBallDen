@@ -1,8 +1,9 @@
 import React from 'react'
 import '../Footer.css'
+import { CDBFooter } from 'cdbreact';
 
 
-function Header() {
+function Footer() {
   return (
     <div className='footer'>
           <footer class="footer">
@@ -52,4 +53,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Footer;
