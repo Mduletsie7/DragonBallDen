@@ -6,7 +6,7 @@ function Header() {
     <div className='header'>
         <div className='header__left'>
           
-            <img src={process.env.PUBLIC_URL + "/images/Logo.png"} alt='DragonBall Wiki Logo' />
+            <img className='SiteLogo' src={process.env.PUBLIC_URL + "/images/Logo.png"} alt='DragonBall Wiki Logo' />
             {/* <h2>Broly Look! We speak Dragonball</h2> */}
         </div>
         <div className='header__center'>
