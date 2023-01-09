@@ -1,5 +1,7 @@
 @media all and (max-width: 480px) {
 
+    /*  =========== HEADER =========== */
+
     .header {
         width: 100%;
         height: 80px;
@@ -27,5 +29,21 @@
     
     .signBtn {
         display: none
+    }
+
+    /*  =========== Z-STORE =========== */
+
+    .print-products {
+        flex-wrap: nowrap;
+        overflow: scroll;
+    }
+
+    .products-container {
+        display: flex;
+        width: 40px;
+    }
+
+    .clothingItem {
+        width: 160px;
     }
  }
