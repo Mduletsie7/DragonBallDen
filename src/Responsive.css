@@ -33,7 +33,7 @@
 
     /*  =========== Z-STORE =========== */
 
-    .print-products {
+    .printProducts {
         flex-wrap: nowrap;
         overflow: scroll;
     }
