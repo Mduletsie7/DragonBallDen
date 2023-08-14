@@ -19,20 +19,17 @@ function NavbarTop() {
             navbarScroll
           >
             <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="https://dragonball.fandom.com/wiki/Main_Page" target="blank">Buy Merch</Nav.Link>
-            <NavDropdown title="Hero" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Watch Dragonball Super Online Free</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
+            <Nav.Link href="#zStore">Buy Merch</Nav.Link>
+            <NavDropdown title="Quick Links" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="https://9animetv.to/watch/dragon-ball-super-1692?ep=22219" target="blank">Watch Dragonball Super Online Free</NavDropdown.Item>
+              <NavDropdown.Item href="https://mangaplus.shueisha.co.jp/titles/100012" target="blank">
                 Read Dragonball Super Manga online free
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Dragonball Kakumei
+              <NavDropdown.Item href="https://www.dbzgames.org/games/" target="blank">
+                Play Games
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#" disabled>
-              Link
-            </Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control

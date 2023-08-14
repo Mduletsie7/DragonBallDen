@@ -21,9 +21,9 @@ function App() {
       <DBFighterz title="Dragon Ball FighterZ" rating="9/10 Steam ">
       </DBFighterz>
       <YoutubeEmbed embedId='n5rMnfqL5Os' />
-      <Deliverance title="Dragon Ball Deliverance" description="Dragon Ball Deliverance is a fan made series following the story of the lives of our favourite Z Fighters beyond the events of GT.">
+      <Deliverance title="Dragon Ball Z Budokai Tenkaichi 4" description="Official Release Trailer">
       </Deliverance>
-      <YoutubeEmbed embedId='Hoc0j1k3Wvc' />
+      <YoutubeEmbed embedId='O5CzC1aFVAw' />
       <Store />
       <Newsletter />
       <Footer />
